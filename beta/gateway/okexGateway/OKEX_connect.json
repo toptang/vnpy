@@ -1,0 +1,9 @@
+{
+    "apiKey": "",
+    "secretKey": "",
+    "spot_connect":true,
+    "future_connect":true,
+    "trace": false,
+    "leverage": 10,
+    "qryEnabled":true
+}

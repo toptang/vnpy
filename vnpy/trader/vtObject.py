@@ -342,6 +342,25 @@ class VtSingleton(type):
             cls._instances[cls] = super(VtSingleton, cls).__call__(*args, **kwargs)
             
         return cls._instances[cls]
-    
+
+########################################################################
+class VtDeltaCheckResult(object):
+
+    # ----------------------------------------------------------------------
+    def __init__(self):
+        """Constructor"""
+        self.strategy = EMPTY_STRING
+
+        self.localPos = EMPTY_FLOAT
+        self.localDelta = EMPTY_FLOAT
+
+        self.exchangeSpotPos = EMPTY_FLOAT
+        self.spotPrice = EMPTY_FLOAT
+        self.exchangeNetFuturePos = EMPTY_FLOAT
+        self.exchangeDelta = EMPTY_FLOAT
+
+        self.absDiff = EMPTY_FLOAT
+        self.percentDiff = EMPTY_FLOAT
+        self.sendAlert = False
     
     

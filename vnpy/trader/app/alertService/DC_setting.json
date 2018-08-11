@@ -1,0 +1,30 @@
+{
+  "strategies": {
+    "shock strategy - EOS": {
+      "account": "eos_usdt.future.OKEX",
+      "vtSymbol": "eos_usd:quarter:10.OKEX",
+      "table": "ShockStrategy",
+      "multiplier": 10,
+      "maxAlertTimes": 1,
+      "threshold": 0.2
+    },
+    "shock strategy - BTC": {
+      "account": "btc_usdt.future.OKEX",
+      "vtSymbol": "btc_usd:quarter:10.OKEX",
+      "table": "ShockStrategy",
+      "multiplier": 100,
+      "maxAlertTimes": 1,
+      "threshold": 0.2
+    },
+    "shock strategy - ETH": {
+      "account": "eth_usdt.future.OKEX",
+      "vtSymbol": "eth_usd:quarter:10.OKEX",
+      "table": "ShockStrategy",
+      "multiplier": 10,
+      "maxAlertTimes": 1,
+      "threshold": 0.2
+    }
+  },
+  "warmingSeconds" : 120,
+  "freqInSeconds": 60
+}

@@ -1,0 +1,27 @@
+{
+    "period": "1min",
+    "fillData": true,
+    "fixDifference": true,
+    "removeDuplicates": true,
+    "bar":
+    [
+        ["eos_usd:quarter:10.OKEX", "OKEX", false],
+        ["ltc_usd:quarter:10.OKEX", "OKEX", false],
+        ["btc_usd:quarter:10.OKEX", "OKEX", false],
+        ["eth_usd:quarter:10.OKEX", "OKEX", false],
+        ["etc_usd:quarter:10.OKEX", "OKEX", false],
+        ["bch_usd:quarter:10.OKEX", "OKEX", false],
+        ["xrp_usd:quarter:10.OKEX", "OKEX", false]
+    ],
+
+    "active":
+    {
+        "eos": "eos_usd:quarter:10.OKEX",
+        "ltc": "ltc_usd:quarter:10.OKEX",
+        "btc": "btc_usd:quarter:10.OKEX",
+        "eth": "eth_usd:quarter:10.OKEX",
+        "etc": "etc_usd:quarter:10.OKEX",
+        "bch": "bch_usd:quarter:10.OKEX",
+        "xrp": "xrp_usd:quarter:10.OKEX"
+    }
+}
